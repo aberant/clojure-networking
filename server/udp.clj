@@ -1,4 +1,5 @@
-(import '(java.net InetAddress DatagramPacket DatagramSocket))
+(ns server.udp
+  (:import (java.net InetAddress DatagramPacket DatagramSocket)))
 
 (def udp-server (ref nil))
 
